@@ -1,3 +1,5 @@
+/* --------------------------------------Fontes---------------------------------------------*/
+
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Work+Sans&display=swap');
   
   *{
@@ -15,11 +17,8 @@
     height: 100vh;
   }
 
-  .logo-image {
-    display: flex;
-    width: 50vw;
-  }
-/* Main*/
+  
+/* -------------------------Main------------------------------*/
   .content {
     display: flex;
     flex-direction: column;
@@ -31,6 +30,21 @@
     justify-content: center;
     gap: 20px;
     padding: 0px 30px;
+  }
+
+  .logo-box {
+    margin: 60px 60px 20px 20px;
+   }
+
+  .logo-image {
+    display: flex;
+    width: 30vw;
+   }
+
+  .text-box {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
   }
 
   .content-title {
@@ -53,16 +67,11 @@
 
   .secondary-content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-content: center;
-    margin-top: 48px;
+    margin-top: 100px;
     padding: 0px 20px;
     gap: 20px;
-  }
-
-  .form {
-    display: flex;
-    align-items: center;
   }
 
   label {
@@ -70,6 +79,11 @@
     font-family: "Spartan", sans-serif;
     font-weight: 400;
   }
+
+  .form {
+    display: flex;
+    align-items: center;
+  }  
 
   #email {
     width: 500px;
@@ -82,9 +96,23 @@
     width: 40px;
     height: 30px;
     background-color: #121214;
+    border: none;
   }
 
-/* Aside*/
+  .tertiary-content {
+    display: flex;
+    margin-top: 30px;
+    padding: 0px 20px;
+    align-content: center;
+  }
+
+  .link-homepage {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    color: #8257e5;
+  }
+
+/* -------------------------Aside------------------------------*/
   .aside-content {
     width: 50vw;
   }
@@ -95,18 +123,4 @@
     flex-direction: column;
     width: 50vw;
     height: 100vh;
-  }
-
-/* Tertiary Content*/
-  .tertiary-content {
-    display: flex;
-    margin-top: 30px;
-    padding: 0px 20px;
-    align-content: center;
-  }
-
-  .link {
-    font-family: "Work Sans", sans-serif;
-    font-weight: 400;
-    color: #8257e5;
   }
